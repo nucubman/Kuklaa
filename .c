@@ -31,5 +31,5 @@ main() {
 		getchar();
 
 	}
-
+\b\b -  nishansvs backspaces! anu shlis bolo 2 simbolos radgan boloshi gamravleba agar gvindoda! 
 ricxvis martiv mamravlebad dashla! 
