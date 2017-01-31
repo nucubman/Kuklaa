@@ -1,0 +1,35 @@
+int is_prime(int number) {
+	if (number <= 1)
+		return 0;
+	else if (number <= 3)
+		return 1;
+	else if (number % 2 == 0 || number % 3 == 0)
+		return 0;
+	int i = 5;
+	while (i*i <= number) {
+		if (number % i == 0 || number % (i + 2) == 0) {
+			return 0;
+		}
+		i = i + 6;
+	}
+	return 1;
+}
+// mocemuli ricxvis martiv mamravlebad dashla boshyo! 
+main() {
+	srand(time(NULL));
+	int n = 100600, i = 2;
+	while (n > 1) {
+		if (n % i == 0) {
+			printf("%02d ", i);
+			n /= i;
+			i = 2;
+		}
+		else {
+			i++;
+		}
+	}
+		getchar();
+
+	}
+
+ricxvis martiv mamravlebad dashla! 
