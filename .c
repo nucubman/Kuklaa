@@ -33,3 +33,22 @@ main() {
 	}
 \b\b -  nishansvs backspaces! anu shlis bolo 2 simbolos radgan boloshi gamravleba agar gvindoda! 
 ricxvis martiv mamravlebad dashla! 
+// timer for bonus!
+	main(){
+
+	 int i = 0;
+	while(1){
+        Sleep(1000);
+	printf("\b\b%02d", i++ % 60 + 1);
+	}
+	
+	main() {
+
+	int i = 0;
+	int k = 0;
+	while (1) {
+		Sleep(1000);
+		printf("\b\b\b\b\b\b\b%02d  %02d", i++ / 60 + 1, k++ % 60);
+		
+	}
+}
